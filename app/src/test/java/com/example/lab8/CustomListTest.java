@@ -21,7 +21,7 @@ public class CustomListTest {
         list = new CustomList(null,new ArrayList<>());
         return list;
     }
-    
+
     @Test
     public void addCityTest(){
         list = MockCityList();
